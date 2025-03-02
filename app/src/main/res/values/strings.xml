@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Silly Clicker</string>
+    <string name="buttonLabel">btn</string>
+    <string name="clicksLabel">Clicks: </string>
+    <string name="clicksQuantity">0</string>
+    <string name="gitBtn">GitHub</string>
+    <string name="millyLabel">Milly</string>
+    <string name="uniLabel">Uni</string>
+    <string name="lunaLabel">Lunaistabby</string>
+    <string name="lunarLabel">Lunar</string>
+    <string name="resetLabel">Reset Progress</string>
+</resources>
