@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SillyClicker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@android:color/system_accent1_300</item>
+        <item name="android:textColor">@android:color/primary_text_dark</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:colorBackground">@android:color/background_dark</item>
+    </style>
+
+    <style name="Theme.SillyClicker" parent="Base.Theme.SillyClicker" />
+</resources>
