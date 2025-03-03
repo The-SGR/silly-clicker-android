@@ -37,6 +37,7 @@
         android:layout_marginBottom="24dp"
         android:fontFamily="@font/montserrat_black"
         android:text="@string/gitBtn"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
