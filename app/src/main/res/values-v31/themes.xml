@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SillyClicker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@android:color/system_accent1_500</item>
+        <item name="android:textColor">@android:color/primary_text_light</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:colorBackground">@android:color/background_light</item>
+    </style>
+
+    <style name="Theme.SillyClicker" parent="Base.Theme.SillyClicker" />
+</resources>
