@@ -31,8 +31,8 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="180dp"
-        android:layout_height="wrap_content"
+        android:layout_width="125dp"
+        android:layout_height="55dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="24dp"
         android:fontFamily="@font/montserrat_black"
@@ -41,16 +41,17 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-<!--    <Button-->
-<!--        android:id="@+id/resetBtn"-->
-<!--        android:layout_width="180dp"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginEnd="16dp"-->
-<!--        android:layout_marginBottom="24dp"-->
-<!--        android:fontFamily="@font/montserrat_black"-->
-<!--        android:text="@string/resetLabel"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent" />-->
+    <Button
+        android:id="@+id/resetBtn"
+        android:layout_width="125dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="@font/montserrat_black"
+        android:text="@string/resetLabel"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
