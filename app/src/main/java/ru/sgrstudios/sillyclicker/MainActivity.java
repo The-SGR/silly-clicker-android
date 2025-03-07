@@ -109,11 +109,23 @@ public class MainActivity extends AppCompatActivity {
                 if (checkedId == R.id.millyBtn) {
                     btn.setImageResource(R.drawable.milly);
                 } else if (checkedId == R.id.uniBtn) {
-                    btn.setImageResource(R.drawable.uni);
+                    if (count < 100) {
+                        Toast.makeText(MainActivity.this, "100 clicks required.", Toast.LENGTH_SHORT).show();
+                    } else {
+                        btn.setImageResource(R.drawable.uni);
+                    }
                 } else if (checkedId == R.id.lunaBtn) {
-                    btn.setImageResource(R.drawable.lunaistabby);
+                    if (count < 1000) {
+                        Toast.makeText(MainActivity.this, "1000 clicks required.", Toast.LENGTH_SHORT).show();
+                    } else {
+                        btn.setImageResource(R.drawable.lunaistabby);
+                    }
                 } else if (checkedId == R.id.lunarBtn) {
-                    btn.setImageResource(R.drawable.lunar);
+                    if (count < 10000) {
+                        Toast.makeText(MainActivity.this, "10000 clicks required.", Toast.LENGTH_SHORT).show();
+                    } else {
+                        btn.setImageResource(R.drawable.lunar);
+                    }
                 }
             }
         });
